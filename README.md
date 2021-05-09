@@ -1,2 +1,2 @@
-# furps
+# FURPS
 Demo performance
