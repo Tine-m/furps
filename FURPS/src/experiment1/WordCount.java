@@ -44,7 +44,7 @@ public class WordCount {
         word = word.toLowerCase();
         int index = wordCountList.indexOf(word);
         int count = wordCounts.get(index);
-        result = "Ordet lykkelig forekommer s\u00e5 mange gange: " + count;
+        result = "Ordet " + word + " forekommer s\u00e5 mange gange: " + count;
         return result;
     }
 

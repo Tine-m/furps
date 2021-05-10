@@ -1,13 +1,12 @@
-package experiment1;
+package experiment3;
 
 public class Main {
 
     public static void main(String[] args) {
-
         // start time
         long startTime = System.nanoTime();
         WordCount wordCount = new WordCount("LykkePer.txt");
-        //end time
+        // end time
         long endTime = System.nanoTime();
 
         // difference between the two nano time values

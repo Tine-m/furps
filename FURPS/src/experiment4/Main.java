@@ -1,13 +1,12 @@
-package experiment1;
+package experiment4;
 
 public class Main {
 
     public static void main(String[] args) {
-
         // start time
         long startTime = System.nanoTime();
         WordCount wordCount = new WordCount("LykkePer.txt");
-        //end time
+        // end time
         long endTime = System.nanoTime();
 
         // difference between the two nano time values
@@ -25,8 +24,8 @@ public class Main {
 
         // difference between the two nano time values
         timeElapsed = endTime - startTime;
-        System.out.println("Find word in memory - Execution time in nanoseconds: " + timeElapsed);
-        System.out.println("Find word in memory - Execution time in milliseconds: " + timeElapsed / 1000000);
+        System.out.println("Find word in file - Execution time in nanoseconds: " + timeElapsed);
+        System.out.println("Find word in file - Execution time in milliseconds: " + timeElapsed / 1000000);
 
         System.out.println();
 
